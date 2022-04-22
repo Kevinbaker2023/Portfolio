@@ -41,3 +41,9 @@ footer, header {
 header, main, footer{
   text-align: center;
 }
+/* Link Colors */
+  a:link {color: red;}
+  a:visited {color: green;}
+  a:hover {color: blue;}
+  a:active {color: orange;}
+
