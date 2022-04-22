@@ -13,6 +13,7 @@ ol {
 /* changes font size of h1 */
 h1 {
   font-size: 48px;
+  margin-top: 0;
 }
 
 /* changes font size of h3 */
@@ -25,19 +26,21 @@ h2 {
   font-size: 28px;
 }
 
-/* Adjusts unordered list position*/
-ul {
-  text-align: left;
-}
-
 /* adjusts list positions */
 .list-inside {
   list-style-position: inside;
+  text-align: left;
+}
+
+/* Centers all lists*/
+.center-list {
+  margin: auto;
+  width: 25%
 }
 
 /* changes font of h1 */
 main {
-  font-family: Comic Sans MS, sans-serif;
+  font-family: Arial, sans-serif;
 }
 
 /* changes background and color of footer and header */
