@@ -4,43 +4,53 @@ header {
   margin: 0;
   height: 115px;
 }
+
 /* adjusts bottom padding of ordered list */
 ol {
   padding-bottom: 20px;
 }
+
 /* changes font size of h1 */
 h1 {
   font-size: 48px;
 }
+
 /* changes font size of h3 */
 h3 {
   font-size: 22px;
 }
+
 /* changes font size of h2 */
 h2 {
   font-size: 28px;
 }
 
+/* Adjusts unordered list position*/
 ul {
   text-align: left;
 }
+
 /* adjusts list positions */
 .list-inside {
   list-style-position: inside;
 }
+
 /* changes font of h1 */
 main {
   font-family: Comic Sans MS, sans-serif;
 }
+
 /* changes background and color of footer and header */
 footer, header {
   background: darkred;
   color: lightcyan;
 }
+
 /* adjusts text position of header, main and footer */
 header, main, footer{
   text-align: center;
 }
+
 /* Link Colors */
   a:link {color: red;}
   a:visited {color: green;}
