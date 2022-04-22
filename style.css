@@ -20,6 +20,10 @@ h3 {
 h2 {
   font-size: 28px;
 }
+
+ul {
+  text-align: left;
+}
 /* adjusts list positions */
 .list-inside {
   list-style-position: inside;
