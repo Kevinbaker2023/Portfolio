@@ -1,7 +1,6 @@
 /* changes font, margin and height of header */
 header {
     font-family: Impact, serif;
-    margin: 0;
     height: 90px;
   }
   
@@ -17,13 +16,14 @@ body {
     float: left;
     width: 70%;
     height: 100%;
-    padding: 20px;
+    margin-top: 15px;
   }
 
 #side {
     float: right;
     width: 25%;
     height: 100%;
+    margin: 15px;
   }
   
 #link-side {
@@ -67,7 +67,7 @@ h1 {
 
 textarea {
     max-width: 100%;
-    height: 150px
+    height: 125px
     }
   
 /* changes background and color of footer and header */
@@ -81,12 +81,13 @@ header, main, footer{
     text-align: center;
      }
      
-     .footer {
-        position: absolute;
+     footer {
+        left: 0;
         bottom: 0;
+        position: fixed;
         width: 100%;
-        margin-top: 10px;
-        height: 20px;
+        margin-top: 5px;
+        height: 15px;
         background-color: whitesmoke;
       }
  
