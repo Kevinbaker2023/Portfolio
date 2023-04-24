@@ -37,18 +37,18 @@ body {
   }
 
 #pug-image {
-    width: 150px;
+    max-width: 100%;
     border: 10px;
   }
 
 #cat-image {
-    width: 400px;
+    width: 500px;
   }
 
 .side-articles, .main-articles {
     border-radius: 5px;
     padding: 10px;
-    margin: 10px;
+    margin: 15px;
     background-color: whitesmoke;
     max-width: 100%;
   }
@@ -86,8 +86,8 @@ header, main, footer{
         bottom: 0;
         position: fixed;
         width: 100%;
-        margin-top: 5px;
-        height: 15px;
+        margin-top: 10px;
+        height: 20px;
         background-color: whitesmoke;
       }
  
