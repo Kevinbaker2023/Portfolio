@@ -21,6 +21,7 @@
   </header>
 
   <main>
+
     <div id="main">
         <article class = "main-articles">
             <h2> Introduction </h2>
@@ -33,6 +34,7 @@
              </p>
         </article>
     </div>
+
     <div id="side">
         <article class = "side-articles" id="profile">
             <img id="pug-image" src="images/pug.jpeg">
@@ -49,7 +51,6 @@
         </div>
         </article>
     
-    
     <div id="link-side">
     <article class = "side-articles">
 
@@ -64,10 +65,18 @@
     </div>
 
     <article class = "side-articles">
-        <h2>Comments</h2>
-    <form action="/comments.com" method="POST">
-        <p>Please leave any comments you may have. Thank you.</p>
-        <textarea name="comments" placeholder = "Please enter your comments here"> </textarea>
+        <h2>Contact Me</h2>
+        <h4>Come say Hi!</h4>
+    <form action="mailto:kevinbaker2023@gmail.com" method="POST">
+        <label for="name">Name</label>
+        <br>
+        <input type="text" id="name" placeholder="Enter Your Name">
+        <br>
+        <label for="body">Message</label>
+        <br>
+        <textarea id="body" placeholder="Enter Your Message"></textarea>
+        <br>
+        <input type="submit" name="send" value="Send">
     </form>
     </article>
     </div>

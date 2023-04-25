@@ -1,4 +1,3 @@
-/* changes font, margin and height of header */
 header {
     font-family: Impact, serif;
     height: 90px;
@@ -16,7 +15,7 @@ body {
     float: left;
     width: 70%;
     height: 100%;
-    margin-top: 15px;
+    margin-top: 10px;
   }
 
 #side {
@@ -30,7 +29,12 @@ body {
     width: 100%
   }
 
-
+#checkbox-main {
+  float: left;
+  max-width: 100%;
+  max-height: 100%;
+  margin-top: 10px;
+}
 
 #profile {
     text-align: center;
@@ -49,17 +53,25 @@ body {
     border-radius: 5px;
     padding: 10px;
     margin: 15px;
+  }
+
+.side-articles {
     background-color: whitesmoke;
     max-width: 100%;
   }
+
+.main-articles {
+  background-color: whitesmoke;
+  max-width: 100%;
+}
+
+
   
-/* changes font size of h1 */
 h1 {
     font-size: 48px;
     margin-top: 10px;  
   }
   
-/* adjusts list positions */
 .list-inside {
     list-style-position: inside;
     text-align: justify;
@@ -67,34 +79,32 @@ h1 {
 
 textarea {
     max-width: 100%;
-    height: 125px
+    height: 150px
     }
-  
-/* changes background and color of footer and header */
+
 header {
     background: white;
     padding: 10px;
     }
   
-/* adjusts text position of header, main and footer */
 header, main, footer{
     text-align: center;
-     }
+    }
      
-     footer {
-        left: 0;
-        bottom: 0;
-        position: fixed;
-        width: 100%;
-        margin-top: 10px;
-        height: 20px;
-        background-color: whitesmoke;
-      }
+footer {
+    left: 0;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    margin-top: 10px;
+    height: 20px;
+    background-color: whitesmoke;
+    }
  
   
-  /* Link Colors */
-    a:link {color: red;}
-    a:visited {color: green;}
-    a:hover {color: blue;}
-    a:active {color: orange;}
+
+a:link {color: red;}
+a:visited {color: green;}
+a:hover {color: blue;}
+a:active {color: orange;}
   
